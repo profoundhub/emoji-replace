@@ -14,7 +14,7 @@
     "string",
     "text"
   ],
-  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "author": "Daniel Lim",
   "license": "MIT",
   "dependencies": {
     "emojilib": "^2.0.2",

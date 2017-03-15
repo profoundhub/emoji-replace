@@ -10,7 +10,7 @@ var emoji = require("emojilib");
 
 // console.log(emoji.lib);
 // console.log(rs);
-let str = '';
+let str = 'When a boy winks at you :girl: fear not, ;-) back and give him a broad :-)';
 
 function emoji_replace(str, returnObject) {
   var m = [],
@@ -35,12 +35,9 @@ function emoji_replace(str, returnObject) {
   return str;
 }
 
-//the string containing emoticons
-var str1 = 'When a boy winks at you :girl: fear not, ;-) back and give him a broad :-)';
-
 //now some emoji replacements.
-var str1 = emoji_replace(str1);
+str = emoji_replace(str);
 
-console.log(str1);
+console.log(str);
 
 module.exports = emoji_replace;
